@@ -1,0 +1,28 @@
+{
+	"name" : "anime-db/demo-bundle",
+	"license" : "GPL-3.0",
+	"type" : "library",
+	"description" : "A set of functions to demonstrate the application",
+	"homepage" : "http://anime-db.org",
+	"authors" : [{
+			"name" : "Anime DB",
+			"homepage" : "http://anime-db.org"
+		}, {
+			"name" : "Peter Gribanov",
+			"email" : "info@peter-gribanov.ru"
+		}, {
+			"name" : "Anime DB Community",
+			"homepage" : "https://github.com/anime-db/anime-db/graphs/contributors"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"AnimeDb\\Bundle\\DemoBundle\\" : "src/"
+		}
+	},
+	"require" : {
+		"php" : ">=5.4.0",
+		"anime-db/anime-db" : "dev-master"
+	},
+	"minimum-stability" : "dev"
+}
